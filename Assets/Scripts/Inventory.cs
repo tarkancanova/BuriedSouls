@@ -6,21 +6,33 @@ using static UnityEditor.Progress;
 public class Inventory : MonoBehaviour
 {
     private Dictionary<string, Item> equipmentSlots;
+    [SerializeField] private GameObject _weaponFactory;
 
     private void Start()
     {
         equipmentSlots = new Dictionary<string, Item>
         {
-            { "helmet", null },
-            { "body armor", null },
-            { "weapon", null },
-            { "ring1", null },
-            { "ring2", null },
-            { "amulet", null },
-            { "off-hand", null },
-            { "gloves", null },
+            { "Helmet", null },
+            { "Body Armor", null },
+            { "Weapon", null },
+            { "Ring1", null },
+            { "Ring2", null },
+            { "Amulet", null },
+            { "Off-Hand", null },
+            { "Gloves", null },
+            { "Boots", null },
         };
+
+        //EquipItem("weapon", _weaponFactory.GetComponent<WeaponFactory>().CreateRandomizedWeapon("bgd", 1263, 4));
+        //Debug.Log(GetItemInSlot("weapon").GetStats());
     }
+
+
+    private void Update()
+    {
+        
+    }
+
 
     public void EquipItem(string slot, Item item)
     {
@@ -50,5 +62,7 @@ public class Inventory : MonoBehaviour
     {
         return equipmentSlots.ContainsKey(slot) ? equipmentSlots[slot] : null;
     }
+
+    
 
 }

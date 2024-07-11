@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aadcb4aa288e24bb55f8b426041166, type: 3}
   m_Name: Chance to Poison
   m_EditorClassIdentifier: 
-  modName: 
-  minValue: 0
-  maxValue: 0
+  modName: poison
+  minValue: 15
+  maxValue: 15

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Mod", menuName = "Inventory/Mod")]
-public class ItemMod : ScriptableObject
+public class ItemMods : ScriptableObject
 {
     public string modName;
     public int minValue;
