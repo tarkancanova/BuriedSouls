@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Armour
   m_EditorClassIdentifier: 
   modName: Armour
+  modType: 4
   minValue: 0
   maxValue: 0

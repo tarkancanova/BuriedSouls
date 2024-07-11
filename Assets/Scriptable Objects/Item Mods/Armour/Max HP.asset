@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Max HP
   m_EditorClassIdentifier: 
   modName: Max HP
+  modType: 8
   minValue: 0
   maxValue: 0

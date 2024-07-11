@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aadcb4aa288e24bb55f8b426041166, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  modName: 
+  modName: Shield
+  modType: 10
   minValue: 0
   maxValue: 0

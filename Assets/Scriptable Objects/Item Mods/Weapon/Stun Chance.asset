@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aadcb4aa288e24bb55f8b426041166, type: 3}
   m_Name: Stun Chance
   m_EditorClassIdentifier: 
-  modName: 
-  minValue: 0
-  maxValue: 0
+  modName: Stun Chance
+  modType: 25
+  minValue: 5
+  maxValue: 5

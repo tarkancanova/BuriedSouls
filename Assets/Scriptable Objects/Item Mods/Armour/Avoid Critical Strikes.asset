@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aadcb4aa288e24bb55f8b426041166, type: 3}
   m_Name: Avoid Critical Strikes
   m_EditorClassIdentifier: 
-  modName: 
+  modName: Critical Avoidance
+  modType: 7
   minValue: 0
   maxValue: 0

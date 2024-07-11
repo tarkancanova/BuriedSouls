@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Lightning Resistance
   m_EditorClassIdentifier: 
   modName: Lightning Resistance
+  modType: 3
   minValue: 0
   maxValue: 0

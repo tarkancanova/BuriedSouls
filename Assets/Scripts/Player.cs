@@ -8,6 +8,9 @@ public class Player : CharacterBase
     public int strength; //increases physical damage by %5 and max hp by 10 for every 10 points.
     public int dexterity; //increases evasion by 10 & crit chance by %0.1 for every 10 points.
     public int attackDamage;
+    public int criticalAvoidance;
+    public Inventory inventory;
+    private List<Item> equippedItems = new List<Item>();
 
     protected override void OnEnable()
     {
@@ -16,5 +19,25 @@ public class Player : CharacterBase
         attackDamage = 5;
         //level = _enemyData.level;
        // characterName = _enemyData.enemyName;
+    }
+
+    public void EquipItem(Item item)
+    {
+
+        inventory.EquipItem(item.itemType.ToString(), item);
+
+        equippedItems.Add(item);
+
+        item.ApplyMods(this);
+    }
+
+    public void UnequipItem(Item item)
+    {
+        if (equippedItems.Contains(item))
+        {
+            inventory.UnequipItem(item.itemType.ToString());
+            item.RemoveMods(this);
+            equippedItems.Remove(item);
+        }
     }
 }

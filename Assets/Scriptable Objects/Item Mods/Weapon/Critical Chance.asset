@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Critical Chance
   m_EditorClassIdentifier: 
   modName: crit chance
+  modType: 13
   minValue: 2
   maxValue: 5

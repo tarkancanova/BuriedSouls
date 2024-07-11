@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Increased HP
   m_EditorClassIdentifier: 
   modName: '%X Increased HP'
+  modType: 9
   minValue: 0
   maxValue: 0

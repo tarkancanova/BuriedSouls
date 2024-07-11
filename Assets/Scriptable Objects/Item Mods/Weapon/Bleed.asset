@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Bleed
   m_EditorClassIdentifier: 
   modName: bleed
+  modType: 11
   minValue: 15
   maxValue: 15

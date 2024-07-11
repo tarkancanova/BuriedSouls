@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31aadcb4aa288e24bb55f8b426041166, type: 3}
-  m_Name: Damage Reflection
+  m_Name: IncPhys
   m_EditorClassIdentifier: 
-  modName: Damage Reflection
-  minValue: 0
-  maxValue: 0
+  modName: Increased Physical
+  modType: 24
+  minValue: 5
+  maxValue: 5

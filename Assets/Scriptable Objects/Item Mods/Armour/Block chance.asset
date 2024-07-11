@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Block chance
   m_EditorClassIdentifier: 
   modName: +X% Chance to Block
+  modType: 6
   minValue: 0
   maxValue: 0

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Critical Damage
   m_EditorClassIdentifier: 
   modName: crit damage
+  modType: 14
   minValue: 75
   maxValue: 150

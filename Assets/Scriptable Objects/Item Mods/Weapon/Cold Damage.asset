@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Cold Damage
   m_EditorClassIdentifier: 
   modName: cold damage
+  modType: 21
   minValue: 25
   maxValue: 25

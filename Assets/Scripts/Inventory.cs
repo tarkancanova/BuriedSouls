@@ -6,19 +6,18 @@ using static UnityEditor.Progress;
 public class Inventory : MonoBehaviour
 {
     private Dictionary<string, Item> equipmentSlots;
-    [SerializeField] private GameObject _weaponFactory;
 
     private void Start()
     {
         equipmentSlots = new Dictionary<string, Item>
         {
             { "Helmet", null },
-            { "Body Armor", null },
+            { "BodyArmor", null },
             { "Weapon", null },
             { "Ring1", null },
             { "Ring2", null },
             { "Amulet", null },
-            { "Off-Hand", null },
+            { "OffHand", null },
             { "Gloves", null },
             { "Boots", null },
         };

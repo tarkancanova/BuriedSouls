@@ -248,13 +248,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &98228183
 GameObject:
@@ -486,13 +503,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &162421787
 GameObject:
@@ -619,13 +653,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &181551978
 GameObject:
@@ -752,13 +803,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &206902447
 GameObject:
@@ -1112,13 +1180,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &293570391
 GameObject:
@@ -1245,13 +1330,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &330585543
 GameObject:
@@ -1615,51 +1717,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350654041}
   m_CullTransparentMesh: 1
---- !u!1 &371991115
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 371991117}
-  - component: {fileID: 371991116}
-  m_Layer: 0
-  m_Name: Weapon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &371991116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371991115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07d10c4851333794d8c35786ec8e2f49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _weaponFactory: {fileID: 2121577240}
---- !u!4 &371991117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371991115}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413.79437, y: 158.18413, z: 116.48999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &377282443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,6 +2002,51 @@ Transform:
   - {fileID: 1077141378}
   - {fileID: 541708706}
   - {fileID: 1396245779}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &457594209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457594211}
+  - component: {fileID: 457594210}
+  m_Layer: 0
+  m_Name: Item Generation Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &457594210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457594209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742333c0b2df0a44086d60067cc5ca94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1077141377}
+--- !u!4 &457594211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457594209}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 413.79437, y: 158.18413, z: 116.48999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530620250
@@ -2545,17 +2647,36 @@ MonoBehaviour:
   level: 1
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   intelligence: 0
   strength: 0
   dexterity: 5000
   attackDamage: 0
+  criticalAvoidance: 0
+  inventory: {fileID: 1077141379}
 --- !u!4 &1077141378
 Transform:
   m_ObjectHideFlags: 0
@@ -2583,7 +2704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d10c4851333794d8c35786ec8e2f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _weaponFactory: {fileID: 2121577240}
 --- !u!1 &1143554938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,13 +3097,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &1251257718
 GameObject:
@@ -3763,6 +3900,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722679150}
   m_CullTransparentMesh: 1
+--- !u!1 &1738071290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738071292}
+  - component: {fileID: 1738071291}
+  m_Layer: 0
+  m_Name: Item Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1738071291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738071290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37376026607d2624caec97da9daedb25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponMods:
+  - {fileID: 11400000, guid: 89af07a5995a2e540bd281805fbb5c00, type: 2}
+  - {fileID: 11400000, guid: 2d6f8d95ce47f0747a701b1bcda8f92e, type: 2}
+  - {fileID: 11400000, guid: afec1e2e758ef174e9342186ffe1c1e8, type: 2}
+  - {fileID: 11400000, guid: b468089bdaaf87e47aa15a09a0a5b8ce, type: 2}
+  - {fileID: 11400000, guid: d5b7ef7fcfb11dd459340487d059cc81, type: 2}
+  armorMods:
+  - {fileID: 11400000, guid: 375174519afa4914f9c5cdc8a6c393eb, type: 2}
+  - {fileID: 11400000, guid: fd104ab2058865541b437758dd9146b2, type: 2}
+  - {fileID: 11400000, guid: 297ded0527dcaaf4ba24cc72566380b5, type: 2}
+  - {fileID: 11400000, guid: acdfda2d4a1070e47be7120bd83cf9b9, type: 2}
+  - {fileID: 11400000, guid: dc6dca04ada8a6b40a374629f3c0a949, type: 2}
+  accessoryMods: []
+--- !u!4 &1738071292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738071290}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 413.79437, y: 158.18413, z: 116.48999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742222164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,13 +4403,30 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
 --- !u!1 &2081781885
 GameObject:
@@ -4444,66 +4655,31 @@ MonoBehaviour:
   level: 0
   baseAttackDamage: 0
   characterName: 
-  shield: 0
+  maxShield: 0
+  currentShield: 0
   evasionRating: 0
   armour: 0
   fireResistance: 0
   coldResistance: 0
   lightningResistance: 0
   poisonResistance: 0
+  critChance: 0
+  criticalDamage: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  physicalDamage: 0
+  increasedPhysicalDamage: 0
+  increasedFireDamage: 0
+  increasedColdDamage: 0
+  increasedLightningDamage: 0
+  chanceToPoison: 0
+  chanceToBleed: 0
+  elementalPenetration: 0
+  stunChance: 0
+  chanceToBlock: 0
+  lifesteal: 0
   _enemyData: {fileID: 11400000, guid: 1833c16eaa11eba4f93c049cb2dac644, type: 2}
---- !u!1 &2121577240
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2121577242}
-  - component: {fileID: 2121577241}
-  m_Layer: 0
-  m_Name: Weapon Factory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2121577241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121577240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e790412c8063d76439eaae7dfa954730, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponTemplate: {fileID: 11400000, guid: 171ff60f4def5454fb867f6d254b11f8, type: 2}
-  modPool:
-  - {fileID: 11400000, guid: c0cb4a40d63d0ca45bf17d0d8edff3b2, type: 2}
-  - {fileID: 11400000, guid: 06f0c0dae982f984e817424e598af21b, type: 2}
-  - {fileID: 11400000, guid: 444d547d39e74fe4ba5fa768bd77274b, type: 2}
-  - {fileID: 11400000, guid: 2d6f8d95ce47f0747a701b1bcda8f92e, type: 2}
-  - {fileID: 11400000, guid: 89af07a5995a2e540bd281805fbb5c00, type: 2}
-  - {fileID: 11400000, guid: 2774e2cf40e72ff4294bb0fc6ed996f2, type: 2}
---- !u!4 &2121577242
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121577240}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413.79437, y: 158.18413, z: 116.48999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4515,5 +4691,5 @@ SceneRoots:
   - {fileID: 1330549791}
   - {fileID: 1261740142}
   - {fileID: 445130940}
-  - {fileID: 2121577242}
-  - {fileID: 371991117}
+  - {fileID: 457594211}
+  - {fileID: 1738071292}

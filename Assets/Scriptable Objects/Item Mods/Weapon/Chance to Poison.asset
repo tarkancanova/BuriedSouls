@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Chance to Poison
   m_EditorClassIdentifier: 
   modName: poison
+  modType: 12
   minValue: 15
   maxValue: 15

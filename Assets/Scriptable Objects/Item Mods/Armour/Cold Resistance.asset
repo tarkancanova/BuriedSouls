@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Cold Resistance
   m_EditorClassIdentifier: 
   modName: Cold Resistance
+  modType: 2
   minValue: 0
   maxValue: 0

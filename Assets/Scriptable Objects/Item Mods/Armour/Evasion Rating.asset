@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Evasion Rating
   m_EditorClassIdentifier: 
   modName: Evasion Rating
+  modType: 5
   minValue: 0
   maxValue: 0
