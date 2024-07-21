@@ -21,10 +21,9 @@ public class Player : CharacterBase
        // characterName = _enemyData.enemyName;
     }
 
-    public void EquipItem(Item item)
+    public void EquipItem(string slot, Item item)
     {
-
-        inventory.EquipItem(item.itemType.ToString(), item);
+        inventory.EquipItem(slot, item);
 
         equippedItems.Add(item);
 

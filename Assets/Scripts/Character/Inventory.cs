@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     private Dictionary<string, Item> equipmentSlots;
 
-    private void Start()
+    private void Awake()
     {
         equipmentSlots = new Dictionary<string, Item>
         {
@@ -24,11 +24,7 @@ public class Inventory : MonoBehaviour
 
         //EquipItem("weapon", _weaponFactory.GetComponent<WeaponFactory>().CreateRandomizedWeapon("bgd", 1263, 4));
         //Debug.Log(GetItemInSlot("weapon").GetStats());
-    }
 
-
-    private void Update()
-    {
         
     }
 

@@ -13,7 +13,7 @@ public class TestItemGeneration : MonoBehaviour
         {
             Debug.Log("Mod: " + mod.modName + "Type: " + randomWeapon.itemType.ToString());
         }
-        player.EquipItem(randomWeapon);
+        player.EquipItem(randomWeapon.itemType.ToString(), randomWeapon);
 
         // Test for an armor item
         //Item randomHelmet = ItemManager.instance.CreateRandomItem("Random Helmet", Item.ItemType.Helmet, 2);

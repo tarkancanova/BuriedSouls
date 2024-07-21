@@ -15,8 +15,14 @@ public class BattleScript : MonoBehaviour
     [SerializeField] private GameObject _fightUI;
     [SerializeField] private GameObject _fightScene;
     [SerializeField] private GameObject _playerObject;
-    private GameObject enemyGO;
-    private Enemy enemyScript;
+    private GameObject _enemyGO;
+    private Enemy _enemyScript;
+    private Player _playerScript;
+
+    private void Awake()
+    {
+        _playerScript = _playerObject.GetComponent<Player>();
+    }
 
     private void OnEnable()
     {
@@ -35,9 +41,9 @@ public class BattleScript : MonoBehaviour
         _fightUI.SetActive(true);
         _fightScene.SetActive(true);
         int enemyIndex = UnityEngine.Random.Range(0, _enemyParentObject.transform.childCount);
-        enemyGO = _enemyParentObject.transform.GetChild(enemyIndex).gameObject;
-        enemyScript = enemyGO.GetComponent<Enemy>();
-        enemyGO.SetActive(true);
+        _enemyGO = _enemyParentObject.transform.GetChild(enemyIndex).gameObject;
+        _enemyGO.SetActive(true);
+        _enemyScript = _enemyGO.GetComponent<Enemy>();
 
         yield return new WaitForSeconds(2f);
 
@@ -51,9 +57,9 @@ public class BattleScript : MonoBehaviour
 
     private void TurnDecider()
     {
-        if (_playerObject.GetComponent<Player>().dexterity >= enemyScript.level * 50) state = BattleState.PLAYERTURN;
+        if (_playerScript.dexterity >= _enemyScript.level * 50) state = BattleState.PLAYERTURN;
 
-        else if (_playerObject.GetComponent<Player>().dexterity >= enemyScript.level * 10 && _playerObject.GetComponent<Player>().dexterity < enemyScript.level * 50)
+        else if (_playerScript.dexterity >= _enemyScript.level * 10 && _playerScript.dexterity < _enemyScript.level * 50)
         {
             int turnStartDecider = UnityEngine.Random.Range(0, 2);
             switch (turnStartDecider)
@@ -69,8 +75,8 @@ public class BattleScript : MonoBehaviour
     }
 
     public IEnumerator PlayerAttack()
-    { 
-        enemyScript.TakeDamage(_playerObject.GetComponent<Player>().attackDamage);
+    {
+        _playerScript.DealDamage(_enemyScript, new CharacterBase.GenericDamage { physicalDamage = 15 });
         Debug.Log("Attacking...");
         state = BattleState.ENEMYTURN;
         yield return new WaitForSeconds(1);
@@ -80,7 +86,7 @@ public class BattleScript : MonoBehaviour
     IEnumerator EnemyTurn()
     {
         yield return new WaitForSeconds(1);
-        enemyScript.Attack(_playerObject.GetComponent<Player>());
+        _enemyScript.Attack(_playerScript);
         Debug.Log("enemy attacked");
         state = BattleState.PLAYERTURN;
     }

@@ -1,39 +1,11 @@
 using UnityEngine;
+using static Enums;
 
 [CreateAssetMenu(fileName = "New Mod", menuName = "Inventory/Mod")]
 public class ItemMods : ScriptableObject
 {
     public string modName;
     public ModType modType;
-    public enum ModType
-    {
-        PoisonResistance,
-        FireResistance,
-        ColdResistance,
-        LightningResistance,
-        Armour,
-        EvasionRating,
-        BlockChance,
-        AvoidCritical,
-        MaxHP,
-        IncreasedHP,
-        Shield,
-        Bleed,
-        Poison,
-        CriticalChance,
-        CriticalDamage,
-        FireDamage,
-        IncreasedFire,
-        IncreasedCold,
-        IncreasedLightning,
-        Lifesteal,
-        LightningDamage,
-        ColdDamage,
-        PenetrateElementalResistance,
-        PhysicalDamage,
-        IncreasedPhysical,
-        StunChance,
-    }
     public int minValue;
     public int maxValue;
 

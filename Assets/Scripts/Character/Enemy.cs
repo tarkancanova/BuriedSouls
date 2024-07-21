@@ -23,6 +23,6 @@ public class Enemy : CharacterBase
     {
         float damageToDeal = baseAttackDamage * level;
         Debug.Log(baseAttackDamage + " " + level);
-        player.GetComponent<Player>().TakeDamage((int)damageToDeal);
+        //player.GetComponent<Player>().TakeDamage(damageToDeal, Enums.DamageType.Physical);
     }
 }
