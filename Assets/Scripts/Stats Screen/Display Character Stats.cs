@@ -9,8 +9,9 @@ public class CharacterSheet : MonoBehaviour
     public TMP_Text currentHealthText;
     public TMP_Text maxHealthText;
     public TMP_Text levelText;
-    public TMP_Text baseAttackDamageText;
-    public TMP_Text characterNameText;
+    public TMP_Text dexterity;
+    public TMP_Text strength;
+    public TMP_Text intelligence;
 
     // Defensive stats
     public TMP_Text currentShieldText;
@@ -49,10 +50,9 @@ public class CharacterSheet : MonoBehaviour
         // Initialize character stats from _player
         currentHealthText.text = "Health: " + _player.currentHealth.ToString() + "/" + _player.maxHealth.ToString();
         levelText.text = "Level: " + _player.level.ToString();
-        //baseAttackDamageText.text = _player.baseAttackDamage.ToString();
-        //characterNameText.text = _player.characterName;
-
-        // Initialize defensive stats from _player
+        strength.text = "Strength: " + _player.strength.ToString();
+        dexterity.text = "Dexterity: " + _player.dexterity.ToString();
+        intelligence.text = "Intelligence: " + _player.intelligence.ToString();
         currentShieldText.text = "Shield: " + _player.currentShield.ToString() + "/" + _player.maxShield.ToString();
         evasionRatingText.text = "Evasion: " + _player.evasionRating.ToString();
         armourText.text = "Armour: " + _player.armour.ToString();

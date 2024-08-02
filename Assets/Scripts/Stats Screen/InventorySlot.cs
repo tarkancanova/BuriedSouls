@@ -1,10 +1,20 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public Inventory inventory;
     public string textToShowOnItemExists;
+
+    private void OnEnable()
+    {
+        var test = inventory.GetItemInSlot(this.name);
+        if (test != null)
+            this.GetComponent<Image>().color = Color.red;
+        else
+            this.GetComponent<Image>().color = Color.gray;
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
