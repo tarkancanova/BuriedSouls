@@ -42,4 +42,25 @@ public class Enums : MonoBehaviour
         Poison,
         Mixed,
     }
+
+    public enum PassivePoint
+    {
+        Strength,
+        Dexterity,
+        Intelligence,
+        IncreasedPhys,
+        IncreasedLightning,
+        IncreasedFire,
+        IncreasedCold,
+        PoisonResistance,
+        FireResistance,
+        ColdResistance,
+        LightningResistance,
+        Armour,
+        EvasionRating,
+        BlockChance,
+        AvoidCritical,
+        MaxHP,
+        IncreasedHP,
+    }
 }
