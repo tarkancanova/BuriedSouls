@@ -8,10 +8,12 @@ public class ItemMods : ScriptableObject
     public ModType modType;
     public int minValue;
     public int maxValue;
+    public int value;
 
     public int GetRandomValue()
     {
-        return Random.Range(minValue, maxValue);
+        int modValue = Random.Range(minValue, maxValue);
+        return modValue;
     }
 
     public void ApplyMod(Player player, int value)

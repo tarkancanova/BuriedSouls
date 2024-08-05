@@ -21,7 +21,7 @@ public class Item
     {
         foreach (var mod in mods)
         {
-            mod.ApplyMod(player, mod.GetRandomValue());
+            mod.ApplyMod(player, mod.value);
         }
     }
 
@@ -29,7 +29,7 @@ public class Item
     {
         foreach (var mod in mods)
         {
-            mod.ApplyMod(player, -mod.GetRandomValue());
+            mod.ApplyMod(player, -mod.value);
         }
     }
 }

@@ -40,6 +40,7 @@ public class ItemManager : MonoBehaviour
             if (!usedModIndexes.Contains(randomIndex))
             {
                 ItemMods mod = modPool[randomIndex];
+                mod.value = Random.Range(mod.minValue, mod.maxValue);
                 mods.Add(mod);
                 usedModIndexes.Add(randomIndex);
             }

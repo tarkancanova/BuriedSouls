@@ -25,7 +25,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             textToShowOnItemExists = inventory.GetItemInSlot(this.name).itemType.ToString() + "\n";
             for (int i = 0; i < inventory.GetItemInSlot(this.name).mods.Count; i++)
             {
-                textToShowOnItemExists += inventory.GetItemInSlot(this.name).mods[i].ToString() + "\n";
+                textToShowOnItemExists += inventory.GetItemInSlot(this.name).mods[i].value + "%" + " " + inventory.GetItemInSlot(this.name).mods[i].modName + "\n";
             }
             Tooltip.Instance.ShowTooltip(textToShowOnItemExists);
 
